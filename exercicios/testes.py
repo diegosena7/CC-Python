@@ -1,4 +1,4 @@
-def fatorial(n):
+def fat(n):
     fat = 1
     while n > 1:
         fat = fat * n
@@ -6,8 +6,9 @@ def fatorial(n):
     return fat
 
 
-fatorial(5)
+print(fat(5))
 
 
 def test_fat():
-    assert fatorial(5) == 120
+    assert fat(5) == 120
+
